@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	text-align: center;
+	border: solid medium;
+	border-color: darkred;
+	
+}
+
+.main-navbar{
+	position: absolute;
+	top: 8px;
+	left: 25%;
+	display: block;
+	background-color: snow;
+}
+
+.main-navbar ul li{
+	float: left;
+	list-style-type: none;
+	padding: 0px 15px;
+	font-size: 30px;
+}
+
+.main-navbar ul li a{
+	text-decoration: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.main-navbar ul li a:hover{
+	background-color: black;
+	color: antiquewhite;
+	transition: 250ms;
+}
+
+.sidebar ul li h3{
+	text-align: center;
+	font-size: 22px;
+}
+
+.sidebar ul li{
+	border: solid medium;
+	border-color: firebrick;
+	width: 300px;
+	height: 100px;
+	
+}
+
+body{
+	background-color: snow;
+}
+
+.gallery{
+	position: absolute;
+	background-color:#783811;
+	left: 30%;
+	text-align: center;
+	top: 55%;
+	box-shadow: 10px;
+	width: 560px;
+	height: 760px;
+}
+
+.gallery h2{
+	background-color: black;
+	color: snow;
+	font-size: 28px;
+}
+
+.gallery ul li{
+	list-style-type: none;
+	float: left;
+	
+	margin: 2px 2px;
+}
+
+footer{
+	position: static;
+	left: 0;
+	bottom: 0 auto;
+	text-align: center;
+	background-color: sandybrown;
+	width: 100%;
+	margin-top: 40%;
+}
+
+.fa{
+	padding: 20px;
+	font-size: 45px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.fa-facebook{
+	color: whitesmoke;
+	font-size: 45px;
+}
+
+.fa-facebook:hover{
+	background-color: white;
+	color: black;
+}
+
+.fa-instagram{
+	color: whitesmoke;
+}
+
+.fa-instagram:hover{
+	color:black;
+	background-color: whitesmoke;
+}
+
+.fa-tripadvisor{
+	color:white;
+}
+
+.fa-tripadvisor:hover{
+	background-color: white;
+	color:black;
+}
